@@ -26,7 +26,7 @@ export const Login: React.FC = () => {
             try {
                 window.google.accounts.id.initialize({
                     ux_mode: "popup",
-                    client_id: '814917329316-jvnq267adq4lkjh9k7o0nglqt5hjnlqa.apps.googleusercontent.com', // process.env.REACT_APP_GOOGLE_CLIENT_ID,
+                    client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
                     callback: async (res: CredentialResponse) => {
                         if (res.credential) {
                             login(res);
@@ -41,7 +41,7 @@ export const Login: React.FC = () => {
             } catch (error) {
                 console.log(error);
             }
-        }, []); // you can also add your client id as dependency here
+        }, []);
 
         return <div ref={divRef} />;
     };

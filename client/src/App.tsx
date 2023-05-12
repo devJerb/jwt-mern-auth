@@ -1,7 +1,6 @@
 import React from "react";
 
 import {
-    GitHubBanner,
     Refine,
     LegacyAuthProvider as AuthProvider,
 } from "@refinedev/core";
