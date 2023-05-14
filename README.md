@@ -128,7 +128,7 @@ For `user.js`
 | email  | String | true     |
 | avatar | String | true     |
 
-For `proerty.js`
+For `property.js`
 
 | id           | type     | required |
 |--------------|----------|----------|
