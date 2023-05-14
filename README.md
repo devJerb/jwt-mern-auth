@@ -9,7 +9,6 @@ This project dives deep on the web app JWT using google authentication and provi
 Here's the folder structure found on the repository of both client and server directories
 
 ```
-
 jwt-mern-auth/
 |- client
   |-- src/
@@ -34,7 +33,6 @@ jwt-mern-auth/
     |-- routes/
     |-- models/
     |-- .env
-
 ```
 
 ## Client Directory
@@ -70,7 +68,6 @@ By keeping interfaces in a separate directory, the codebase is more structured a
 The file `theme.d.ts` remains customizable
 
 ```
-
 import "@refinedev/mui";
 export interface CustomTheme {
     // Add custom variables here like below:
@@ -87,7 +84,6 @@ declare module "@mui/material/styles" {
         extends import("@mui/material/styles").ThemeOptions,
             CustomTheme {}
 }
-
 ```
 
 **src/pages**
@@ -159,7 +155,6 @@ To define the routes, the Express.js routing API is used, which maps HTTP method
 ## Environment Variables
 
 ```
-
 REACT_APP_GOOGLE_CLIENT_ID=<GOOGLE_CLIENT_ID>
 REACT_APP_GOOGLE_CLIENT_SECRET=<GOOGLE_CLIENT_SECRET>
 REACT_APP_SERVER_URL=<SERVER_URL>
@@ -169,7 +164,6 @@ MONGODB_URL=<MONGODB_URL>
 CLOUDINARY_CLOUD_NAME=<CLOUD_NAME>
 CLOUDINARY_API_KEY=<API_KEY>
 CLOUDINARY_API_SECRET=<API_SECRET>
-
 ```
 
 ## Installation
@@ -183,19 +177,15 @@ Make sure to change directory before installing the necessary dependencies for t
 On the client directory start by
 
 ```
-
 cd client
 npm install
-
 ```
 
 And for the server directory
 
 ```
-
 cd client
 npm install
-
 ```
 
 You can then start running the front end client directory on a localhost server by
