@@ -2,7 +2,7 @@
 
 Yariga as a full stack MERN dashboard app made using CRUD, google auth, charts from a Refine boilerplate.
 
-This project dives deep on the web app JWT using google authentication and providing a dashboard with charts and outputs; separated client and server based on `localhost:8080`.
+This project dives deep on the web app JWT using google authentication and providing a dashboard with charts and outputs.
 
 ## Folder Structure
 
